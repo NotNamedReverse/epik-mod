@@ -41,7 +41,7 @@ public class EpikMod
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event)
         {
-            ;
+
         }
     }
 }
