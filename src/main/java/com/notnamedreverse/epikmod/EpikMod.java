@@ -1,6 +1,8 @@
 package com.notnamedreverse.epikmod;
 
 import com.mojang.logging.LogUtils;
+import com.notnamedreverse.epikmod.block.ModBlocks;
+import com.notnamedreverse.epikmod.item.ModItems;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -21,6 +23,9 @@ public class EpikMod
     public EpikMod()
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
