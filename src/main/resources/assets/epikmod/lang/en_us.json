@@ -1,6 +1,10 @@
 {
   "item.epikmod.zircon": "Zircon",
   "item.epikmod.raw_zircon": "Raw Zircon",
+  "item.epikmod.zircon_scythe": "Zircon scythe",
+
+  "block.epikmod.zircon_block" : "Block of Zircon",
+  "block.epikmod.zircon_ore" : "Zircon Ore",
 
   "itemGroup.god_tab": "epik tab for epik stuff"
 }

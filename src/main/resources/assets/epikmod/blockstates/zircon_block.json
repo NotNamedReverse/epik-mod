@@ -1,5 +1,5 @@
 {
   "variants": {
-    "": {"model":  "epikmod:blocks.zircon_block"}
+    "": {"model":  "epikmod:block/zircon_block"}
   }
 }
